@@ -1,29 +1,17 @@
-Moodle
-======
+Generating Moodle Quizzes With LaTeX and Python
+===============================================
 
-Software Dependencies
+Required Dependencies
 ---------------------
 
-### LaTeX
+At the bare minimum, you'll need:
 
-1. [moodle - Generating Moodle quizzes via LaTeX][1]
+1. A LaTeX distribution, like [TeX Live][], including the [moodle package][];
+2. A [Python 3][] installation, with module [Jinja2][];
+3. And, of course, a [Moodle][] server!
 
-### Python
-
-1. [Jinja2][2]
-2. [SciPy][3]
-
-Project's Structure
--------------------
-
-### Hard
-
-Static (hard coded) questions should go here.
-
-### Soft
-
-Project's main folder. Questions generated on demand questions should go here.
-
-[1]: https://www.ctan.org/pkg/moodle/
-[2]: https://pypi.org/project/Jinja2/
-[3]: https://scipy.org/
+[TeX Live]: https://tug.org/texlive/
+[moodle package]: https://www.ctan.org/pkg/moodle/
+[Python 3]: https://python.org/
+[Jinja2]: https://pypi.org/project/Jinja2/
+[Moodle]: https://moodle.org/
